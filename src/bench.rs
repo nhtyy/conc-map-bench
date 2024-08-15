@@ -114,13 +114,14 @@ fn run_hasher_variant<H>(options: &Options, h: &mut Handler)
 where
     H: Default + Clone + Send + Sync + BuildHasher + 'static,
 {
-    //case::<StdRwLockStdHashMapTable<u64, H>>("std::sync::RwLock<StdHashMap>", options, h);
-    //case::<ParkingLotRwLockStdHashMapTable<u64, H>>("parking_lot::RwLock<StdHashMap>", options, h);
+    // case::<StdRwLockStdHashMapTable<u64, H>>("std::sync::RwLock<StdHashMap>", options, h);
+    // case::<ParkingLotRwLockStdHashMapTable<u64, H>>("parking_lot::RwLock<StdHashMap>", options, h);
     case::<DashMapTable<u64, H>>("DashMap", options, h);
     case::<FlurryTable<u64, H>>("Flurry", options, h);
     case::<EvmapTable<u64, H>>("Evmap", options, h);
     case::<ContrieTable<u64, H>>("Contrie", options, h);
     case::<SccMapTable<u64, H>>("SccMap", options, h);
+    case::<LightMap<u64, H>>("LightMap", options, h);
 }
 
 pub fn bench(options: &Options) {

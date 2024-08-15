@@ -153,9 +153,10 @@ Throughput
 <polyline fill="none" opacity="1" stroke="#FF00FF" stroke-width="1" points="80,302 133,215 186,188 239,135 292,149 346,162 399,134 452,118 505,102 559,98 "/>
 <polyline fill="none" opacity="1" stroke="#00FFFF" stroke-width="1" points="80,384 133,294 186,285 239,260 292,266 346,287 399,294 452,301 505,323 559,323 "/>
 <polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="80,393 133,359 186,329 239,296 292,264 346,237 399,208 452,173 505,172 559,163 "/>
-<polyline fill="none" opacity="1" stroke="#FFFF00" stroke-width="1" points="80,370 133,315 186,277 239,224 292,179 346,149 399,83 452,41 505,44 559,36 "/>
-<rect x="85" y="41" width="144" height="128" opacity="0.8" fill="#FFFFFF" stroke="none"/>
-<rect x="85" y="41" width="144" height="128" opacity="1" fill="none" stroke="#000000"/>
+<polyline fill="none" opacity="1" stroke="#FFFF00" stroke-width="1" points="80,336 133,269 186,237 239,173 292,174 346,167 399,179 452,167 505,170 559,183 "/>
+<polyline fill="none" opacity="1" stroke="#0000FF" stroke-width="1" points="80,370 133,315 186,277 239,224 292,179 346,149 399,83 452,41 505,44 559,36 "/>
+<rect x="85" y="41" width="144" height="144" opacity="0.8" fill="#FFFFFF" stroke="none"/>
+<rect x="85" y="41" width="144" height="144" opacity="1" fill="none" stroke="#000000"/>
 <text x="125" y="51" dy="0.76em" text-anchor="start" font-family="Fira Code" font-size="10.483870967741936" opacity="1" fill="#000000">
 CHashMap
 </text>
@@ -175,6 +176,9 @@ Evmap
 Flurry
 </text>
 <text x="125" y="149" dy="0.76em" text-anchor="start" font-family="Fira Code" font-size="10.483870967741936" opacity="1" fill="#000000">
+LightMap
+</text>
+<text x="125" y="165" dy="0.76em" text-anchor="start" font-family="Fira Code" font-size="10.483870967741936" opacity="1" fill="#000000">
 SccMap
 </text>
 <polyline fill="none" opacity="1" stroke="#0000FF" stroke-width="1" points="95,56 115,56 "/>
@@ -184,4 +188,5 @@ SccMap
 <polyline fill="none" opacity="1" stroke="#00FFFF" stroke-width="1" points="95,121 115,121 "/>
 <polyline fill="none" opacity="1" stroke="#000000" stroke-width="1" points="95,137 115,137 "/>
 <polyline fill="none" opacity="1" stroke="#FFFF00" stroke-width="1" points="95,154 115,154 "/>
+<polyline fill="none" opacity="1" stroke="#0000FF" stroke-width="1" points="95,170 115,170 "/>
 </svg>

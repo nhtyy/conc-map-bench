@@ -3,6 +3,7 @@ pub use self::{
     chashmap::CHashMapTable, contrie::ContrieTable, crossbeam_skiplist::CrossbeamSkipMapTable,
     dashmap::DashMapTable, evmap::EvmapTable, flurry::FlurryTable, scc::SccMapTable,
     std::ParkingLotRwLockStdHashMapTable, std::StdRwLockStdHashMapTable,
+    light_map::LightMap,
 };
 
 mod btreemap;
@@ -14,5 +15,6 @@ mod evmap;
 mod flurry;
 mod scc;
 mod std;
+mod light_map;
 
 type Value = u32;
